@@ -21,6 +21,10 @@ jobs:
         run: yarn install
       - name: Build the extension
         run: yarn build
+      # 显示dist目录的内容
+      - name: Show dist directory
+        run: echo "dist directory:" && ls dist
+      # 修改path参数的值
       - name: Archive extension
         uses: actions/upload-artifact@v1
         with:
