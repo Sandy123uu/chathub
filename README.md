@@ -37,13 +37,6 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 </div>
 
----
-
-**Help nominate me as a GitHub Star**: https://stars.github.com/nominate/
-> I nominate @wong2 as a GitHub Star
-
----
-
 ## 📷 Screenshot
 
 ![Screenshot](screenshots/extension.png?raw=true#gh-light-mode-only)
@@ -91,6 +84,7 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 ## 🔨 Build from Source
 
 - Clone the source code
+- `corepack enable`
 - `yarn install`
 - `yarn build`
 - Load `dist` folder to browser by following steps in _Manual Installation_
